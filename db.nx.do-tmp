@@ -1,0 +1,29 @@
+nx.do.		IN	SOA	nxdns.aanetworks.org. admin.aanetworks.org. (
+        1610714827  ; serial
+        4H    ; refresh (4 hours)
+        1H    ; retry (1 hour)
+        1W    ; expire (1 week)
+        1H    ; minimum (1 hour)
+        )
+; TLD information
+		IN	NS	nxdns.aanetworks.org.
+		IN	NS	ns2.he.net.
+		IN	NS	ns3.he.net.
+		IN	NS	ns4.he.net.
+;
+; Additional zones
+;
+; 
+aanetworks  IN  NS  boxy.aanetworks.org.
+aanetworks  IN  NS  morbo.aanetworks.org.
+; 
+antigua  IN  NS  boxy.aanetworks.org.
+antigua  IN  NS  morbo.aanetworks.org.
+; 
+ariel  IN  NS  boxy.aanetworks.org.
+ariel  IN  NS  morbo.aanetworks.org.
+; 
+arielantigua  IN  NS  boxy.aanetworks.org.
+arielantigua  IN  NS  morbo.aanetworks.org.
+genesis  IN  NS  boxy.aanetworks.org.
+genesis  IN  NS  morbo.aanetworks.org.
