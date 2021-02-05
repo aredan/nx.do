@@ -13,8 +13,8 @@ OUTPUT_DIR='/etc/bind/zone/master/'
 FILES=${WORK_DIR}zone/*
 
 cd $WORK_DIR
-git fetch origin master > /dev/null
-git reset --hard origin/master > /dev/null
+git fetch origin > /dev/null
+git reset --hard origin > /dev/null
 
 # ADD NEW SOA!
 { echo "nx.do.		IN	SOA	$NS $EMAIL ("
