@@ -14,17 +14,4 @@ nx.do.		IN	SOA	nxdns.aanetworks.org. admin.aanetworks.org. (
 ; Additional zones
 ;
 ; 
-aanetworks  IN  NS  boxy.aanetworks.org.
-aanetworks  IN  NS  morbo.aanetworks.org.
-; 
-antigua  IN  NS  boxy.aanetworks.org.
-antigua  IN  NS  morbo.aanetworks.org.
-; 
-ariel  IN  NS  boxy.aanetworks.org.
-ariel  IN  NS  morbo.aanetworks.org.
-; 
-arielantigua  IN  NS  boxy.aanetworks.org.
-arielantigua  IN  NS  morbo.aanetworks.org.
-; 
-genesis  IN  NS  boxy.aanetworks.org.
-genesis  IN  NS  morbo.aanetworks.org.
+; Clean base file
