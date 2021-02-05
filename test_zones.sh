@@ -5,7 +5,6 @@
 TLD='nx.do'
 NS='nxdns.aanetworks.org.'
 EMAIL='admin.aanetworks.org.'
-TTL='TTL 5m'
 CHECKZONE=/usr/sbin/named-checkzone
 TMP_DEST='db.nx.do-tmp'
 WORK_DIR=''
