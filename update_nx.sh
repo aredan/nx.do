@@ -62,4 +62,4 @@ done
 rm ${OUTPUT_DIR}db*
 cp $WORK_DIR$FILE_NAME $OUTPUT_DIR
 
-systemctl reload bind9
+sudo systemctl reload bind9
