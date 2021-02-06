@@ -59,7 +59,7 @@ do
   fi
 done
 
-rm ${OUTPUT_DIR}db*
-cp $WORK_DIR$FILE_NAME $OUTPUT_DIR
+sudo rm ${OUTPUT_DIR}db*
+sudo cp $WORK_DIR$FILE_NAME $OUTPUT_DIR
 
 sudo systemctl reload bind9
