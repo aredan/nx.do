@@ -3,7 +3,7 @@
 
 #Variables
 TLD='nx.do'
-NS='nxdns.aanetworks.org.'
+NS='ns1.nx.do.'
 EMAIL='admin.aanetworks.org.'
 CHECKZONE=/usr/sbin/named-checkzone
 TMP_DEST='/tmp/db.nx.do'
@@ -28,10 +28,18 @@ git reset --hard origin > /dev/null
 
 # ADD NAMESERVERS!
 { echo "; TLD information"
-  echo "		IN	NS	ns2.he.net."
-  echo "		IN	NS	ns3.he.net."
-  echo "		IN	NS	ns4.he.net."
-  echo "		IN	NS	ns5.he.net."
+  echo "		IN	NS	ns1.nx.do."
+  echo "		IN	NS	ns2.nx.do."
+  echo "		IN	NS	ns3.nx.do."
+  echo "		IN	NS	ns4.nx.do."
+  echo "    IN  NS  ns5.nx.do."
+  echo ";"
+  echo "; Custom NS Servers - Vanity"
+  echo "ns1 IN A 200.1.154.253"
+  echo "ns2 IN A 216.218.131.2"
+  echo "ns3 IN A 216.218.132.2"
+  echo "ns4 IN A 216.66.1.2"
+  echo "ns5 IN A 216.66.80.18"
   echo ";"
   echo "; Additional zones"
   echo ";"
