@@ -44,7 +44,7 @@ do
     echo "Failed to add ${f}.nx.do to the main zone!"
     exit 1
   else
-    echo "Processed ${f}.o Successfully"
+    echo "Processed ${f}.nx.do Successfully"
     echo "; `git log --oneline -- $f | tail -n 1`" >> $FILE_NAME
     cat $f >> $FILE_NAME
   fi
