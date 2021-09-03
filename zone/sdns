@@ -1,0 +1,4 @@
+sdns  IN  NS  ns1.he.net.
+sdns  IN  NS  ns2.he.net.
+sdns  IN  NS  ns3.he.net.
+sdns  IN  NS  ns4.he.net.
